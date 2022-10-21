@@ -10,21 +10,15 @@ body {
 }
 
 .titulo{
-  display: inline-block;
-  vertical-align: top;
+  display: flex;
   justify-content: center;
   color:black; 
   padding: 10px;
-  font-size: 20px;
 }
 
 .typewrite{
+  float: right;
   margin: none;
-}
-
-.teste{
-  color: black;
-  position: relative;
 }
 
 header{
@@ -37,11 +31,10 @@ header{
   flex-direction:row;
   align-items: center;
   justify-content: space-around;
-  padding: 10px;
+  padding: 5px;
   background-color: rgb(58, 174, 174);
 }
 
 .link{
   font-size: 24px ;
-  text-decoration: none;
 }
