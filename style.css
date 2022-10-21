@@ -1,13 +1,32 @@
 body {
-  background-color:#ce3635;
-  text-align: center;
-  color:#fff;
-  padding-top:10em;
+  background-color:aliceblue;
 }
 
-* { color:#fff; text-decoration: none;}
+h1{
+  text-align: center;
+  color:#fff;
+  color:#fff; 
+  text-decoration: none;
+}
 
 .teste{
   color: black;
   position: relative;
+}
+
+header{
+  margin: 0;
+  background-color: aquamarine;
+}
+
+.links{
+  display: flex;
+  flex-direction:row;
+  gap: 5%;
+  background-color: rgb(58, 174, 174);
+}
+
+.link{
+
+  text-decoration: none;
 }
