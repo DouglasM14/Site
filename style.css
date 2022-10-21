@@ -10,14 +10,14 @@ body {
 }
 
 .titulo{
-  display: flex;
-  justify-content: center;
+  display: inline;
   color:black; 
   padding: 10px;
+  font-size: 15px;
+  text-align: center;
 }
 
 .typewrite{
-  float: right;
   margin: none;
 }
 
@@ -28,13 +28,12 @@ header{
 
 .links{
   display: flex;
-  flex-direction:row;
-  align-items: center;
   justify-content: space-around;
   padding: 5px;
   background-color: rgb(58, 174, 174);
 }
 
 .link{
-  font-size: 24px ;
+  flex-grow: 1;
+  font-size: 20px ;
 }
