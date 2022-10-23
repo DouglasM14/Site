@@ -137,6 +137,12 @@ main img.imagem {
     margin: auto;
 }
 
+main img.lado {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
 /* Footer */
 
 footer {
