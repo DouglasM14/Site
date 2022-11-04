@@ -8,7 +8,7 @@
     font-weight: normal;
 }
 
-/*Para criação de variaveis*/
+/*--------------Para criação de variaveis--------------*/
 
 :root {
     --cor0: #ebe5c5;
@@ -17,6 +17,7 @@
     --cor3: #4c7f84;
     --cor4: #34686d;
     --cor5: #1d5156;
+    --cor6: #0e272a;
 
     --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
     --font-destaque: 'Roboto Mono';
@@ -36,10 +37,10 @@ body {
     font-family: var(--fonte-padrao);
 }
 
-/*  Header  */
+/*  --------------------Header--------------------  */
 
 header {
-    background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
+    background-image: linear-gradient(to bottom, var(--cor5), var(--cor6));
     min-height: 150px;
     text-align: center;
     padding-top: 40px;
@@ -64,8 +65,10 @@ header>p {
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.310);
 }
 
+/*  --------------------Nav--------------------  */
+
 nav {
-    background-color: var(--cor5);
+    background-color: var(--cor6);
     padding: 10px;
     box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.200);
 }
@@ -84,7 +87,7 @@ nav>a:hover {
     color: var(--cor5);
 }
 
-/*  Main  */
+/*  --------------------Main--------------------  */
 
 main {
     background-color: rgb(255, 255, 255);
@@ -145,21 +148,76 @@ main img.lado {
 
 /* Footer */
 
+/* --------------------Footer-------------------- */
+
 footer {
-    background-color: var(--cor5);
+    background-image: linear-gradient(to bottom, var(--cor5), var(--cor6));
     color: white;
     text-align: center;
     font-size: 0.8em;
     padding: 5px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
-footer a {
-    color: white;
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h3 {
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+
+.footer-content p {
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+
+.socials {
+    display: inline;
+    margin: 1rem 0 3rem 0;
+}
+
+.socials a {
     font-weight: bolder;
     text-decoration: none;
+    color: #fff;
+    font-size: 1.1rem;
+    transition: color .4s ease;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
-footer a:hover {
+.socials a:hover {
     text-decoration: underline;
     color: var(--cor1);
+}
+
+.footer-bottom {
+    background: var(--cor6);
+    width: 100vw;
+    padding: 0px 0;
+    text-align: center;
+    margin: 0;
+}
+
+.footer-bottom p {
+    font-size: 12px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.footer-bottom span {
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
 }
