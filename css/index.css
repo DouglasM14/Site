@@ -2,13 +2,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Open+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Xanh+Mono&display=swap');
 
 @font-face {
   font-family: 'Josefin Sans', sans-serif;
   font-family: 'Open Sans', sans-serif;
   font-family: 'Oswald', sans-serif;
-  font-family: 'Xanh Mono', monospace;
   src: url('idroid.zip') format('opentype');
   font-weight: normal;
 }
@@ -26,7 +24,6 @@
 
   --fonte-padrao: 'Open Sans', sans-serif;
   --font-destaque: 'Oswald', sans-serif;
-  --font-titulo: 'Xanh Mono', monospace;
 }
 
 * {
@@ -53,15 +50,15 @@ header {
 
 header>h1 {
   color: white;
-  font-family: var(--font-titulo);
-  font-size: 2.5em;
+  font-family: var(--font-destaque);
+  font-size: 3.5em;
   font-weight: normal;
   padding-bottom: 20px;
   text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.270);
 }
 
 header>p {
-  font-family: var(--fonte-titulo);
+  font-family: var(--font-destaque);
   font-size: 1.2em;
   color: white;
   max-width: 600px;
