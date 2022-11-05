@@ -118,7 +118,8 @@ main h2 {
 }
 
 .renewable {
-  background: linear-gradient(90deg, rgba(146, 252, 132, 1) 0%, rgba(255, 255, 255, 1) 94%);
+  background: rgb(102, 196, 120);
+  background: linear-gradient(90deg, rgba(102, 196, 120, 1) 0%, rgba(98, 214, 131, 1) 0%, rgba(255, 255, 255, 1) 100%);
 }
 
 .nonrenewable {
