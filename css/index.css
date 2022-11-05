@@ -128,6 +128,12 @@ main h2 {
   background: linear-gradient(90deg, #7aadb2 0%, rgba(255, 255, 255, 1) 94%);
 }
 
+.print {
+  text-align: center;
+  height: 2.5rem;
+  background: linear-gradient(90deg, #e18b56 0%, rgba(255, 255, 255, 1) 94%);
+}
+
 main h3 {
   font-family: var(--font-destaque);
   color: var(--cor6);
