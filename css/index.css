@@ -125,6 +125,10 @@ main h2 {
   background: linear-gradient(90deg, rgba(252,132,132,1) 0%, rgba(255,255,255,1) 94%);
 }
 
+.final{
+  background: linear-gradient(90deg, #7aadb2 0%, rgba(255,255,255,1) 94%);
+}
+
 main h3 {
   font-family: var(--fot-android);
   color: var(--cor6);
