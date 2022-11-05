@@ -8,7 +8,7 @@
   font-weight: normal;
 }
 
-/*--------------Para criação de variaveis--------------*/
+/*--------------Para criação de variaveis--------------------------------------------------------------------------------------*/
 
 :root {
   --cor0: #ebe5c5;
@@ -18,6 +18,8 @@
   --cor4: #34686d;
   --cor5: #1d5156;
   --cor6: #0e272a;
+  --cor7: #b27a7a;
+  --cor8: #7db27a;
 
   --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
   --font-destaque: 'Roboto Mono';
@@ -37,7 +39,7 @@ body {
   font-family: var(--fonte-padrao);
 }
 
-/*  --------------------Header--------------------  */
+/*  --------------------Header--------------------------------------------------------------------------------------------------------  */
 
 header {
   background-image: linear-gradient(to bottom, var(--cor5), var(--cor6));
@@ -65,7 +67,7 @@ header>p {
   text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.310);
 }
 
-/*  --------------------Nav--------------------  */
+/*  --------------------Nav------------------------------------------------------------------------------------------------------- */
 
 nav {
   background-color: var(--cor6);
@@ -87,7 +89,7 @@ nav>a:hover {
   color: var(--cor5);
 }
 
-/*  --------------------Main--------------------  */
+/*  --------------------Main--------------------------------------------------------------------------------------------------------  */
 
 main {
   background-color: rgb(255, 255, 255);
@@ -115,12 +117,19 @@ main h2 {
   text-indent: 8px;
 }
 
+.renewable{
+  background: linear-gradient(90deg, rgba(146,252,132,1) 0%, rgba(255,255,255,1) 94%);
+}
+
+.nonrenewable{
+  background: linear-gradient(90deg, rgba(252,132,132,1) 0%, rgba(255,255,255,1) 94%);
+}
+
 main h3 {
   font-family: var(--fot-android);
   color: var(--cor6);
   font-size: 1.3em;
   font-weight: normal;
-  background-image: linear-gradient(to right, var(--cor1), transparent);
   text-indent: 8px;
 }
 
@@ -154,7 +163,7 @@ main img.lado {
   margin: auto;
 }
 
-/* --------------------Footer-------------------- */
+/* --------------------Footer-------------------------------------------------------------------------------------------------------- */
 
 footer {
   background-image: linear-gradient(to bottom, var(--cor5), var(--cor6));
