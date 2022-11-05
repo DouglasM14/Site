@@ -1,9 +1,10 @@
 @charset "UTF-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Open+Sans&display=swap');
 
 @font-face {
-  font-family: 'Android';
+  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   src: url('idroid.zip') format('opentype');
   font-weight: normal;
 }
@@ -18,12 +19,9 @@
   --cor4: #34686d;
   --cor5: #1d5156;
   --cor6: #0e272a;
-  --cor7: #b27a7a;
-  --cor8: #7db27a;
 
-  --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
-  --font-destaque: 'Roboto Mono';
-  --fot-android: 'Android';
+  --fonte-padrao: 'Open Sans', sans-serif;
+  --font-destaque: 'josefin Sans';
 }
 
 * {
@@ -103,35 +101,35 @@ main {
 main h1 {
   text-align: center;
   color: var(--cor6);
-  font-family: var(--fot-android);
+  font-family: var(--font-destaque);
   font-weight: normal;
   font-size: 2.0em;
 }
 
 main h2 {
   text-align: center;
-  font-family: var(--fot-android);
+  font-family: var(--font-destaque);
   color: var(--cor5);
   font-size: 1.8em;
   font-weight: normal;
   text-indent: 8px;
 }
 
-.renewable{
-  background: linear-gradient(90deg, rgba(146,252,132,1) 0%, rgba(255,255,255,1) 94%);
+.renewable {
+  background: linear-gradient(90deg, rgba(146, 252, 132, 1) 0%, rgba(255, 255, 255, 1) 94%);
 }
 
-.nonrenewable{
-  background: linear-gradient(90deg, rgba(252,132,132,1) 0%, rgba(255,255,255,1) 94%);
+.nonrenewable {
+  background: linear-gradient(90deg, rgba(252, 132, 132, 1) 0%, rgba(255, 255, 255, 1) 94%);
 }
 
-.final{
+.final {
   text-align: center;
-  background: linear-gradient(90deg, #7aadb2 0%, rgba(255,255,255,1) 94%);
+  background: linear-gradient(90deg, #7aadb2 0%, rgba(255, 255, 255, 1) 94%);
 }
 
 main h3 {
-  font-family: var(--fot-android);
+  font-family: var(--font-destaque);
   color: var(--cor6);
   font-size: 1.3em;
   font-weight: normal;
