@@ -4,7 +4,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 
 @font-face {
-  font-family: 'Josefin Sans', sans-serif;
   font-family: 'Open Sans', sans-serif;
   font-family: 'Oswald', sans-serif;
   src: url('idroid.zip') format('opentype');
@@ -70,6 +69,7 @@ header>p {
 /*  --------------------Nav------------------------------------------------------------------------------------------------------- */
 
 nav {
+  font-family: var(--fonte-padrao);
   background-color: var(--cor6);
   padding: 10px;
   box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.200);
