@@ -3,25 +3,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 
 @font-face {
-    font-family: 'Android';
-    src: url('idroid.zip') format('opentype');
-    font-weight: normal;
+  font-family: 'Android';
+  src: url('idroid.zip') format('opentype');
+  font-weight: normal;
 }
 
 /*--------------Para criação de variaveis--------------*/
 
-:root{
-    --cor0: #ebe5c5;
-    --cor1: #7aadb2;
-    --cor2: #63969b;
-    --cor3: #4c7f84;
-    --cor4: #34686d;
-    --cor5: #1d5156;
-    --cor6: #0e272a;
+:root {
+  --cor0: #ebe5c5;
+  --cor1: #7aadb2;
+  --cor2: #63969b;
+  --cor3: #4c7f84;
+  --cor4: #34686d;
+  --cor5: #1d5156;
+  --cor6: #0e272a;
 
-    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
-    --font-destaque: 'Roboto Mono';
-    --fot-android: 'Android';
+  --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+  --font-destaque: 'Roboto Mono';
+  --fot-android: 'Android';
 }
 
 * {
@@ -46,7 +46,7 @@ header {
   padding-top: 40px;
 }
 
-header > h1{
+header>h1 {
   color: white;
   font-family: var(--font-destaque);
   font-size: 2.5em;
@@ -55,10 +55,10 @@ header > h1{
   text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.270);
 }
 
-header > p {
+header>p {
   font-family: var(--fonte-padrao);
   font-size: 1.2em;
-  color:white;
+  color: white;
   max-width: 600px;
   padding: 0px 10px 30px 10px;
   margin: auto;
@@ -73,8 +73,8 @@ nav {
   box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.200);
 }
 
-nav > a {
-  color:  var(--cor1);
+nav>a {
+  color: var(--cor1);
   padding: 10px;
   border-radius: 5px;
   text-decoration: none;
@@ -82,7 +82,7 @@ nav > a {
   transition-duration: 1s;
 }
 
-nav > a:hover {
+nav>a:hover {
   background-color: var(--cor3);
   color: var(--cor5);
 }
@@ -114,6 +114,14 @@ main h2 {
   text-indent: 8px;
 }
 
+main h3 {
+  font-family: var(--fot-android);
+  color: var(--cor4);
+  font-size: 1.3em;
+  font-weight: normal;
+  text-indent: 8px;
+}
+
 main p {
   margin: 15px 0px 15px 0px;
   text-align: justify;
@@ -132,6 +140,18 @@ main img.imagem {
   margin: auto;
 }
 
+main img.imagem {
+  max-width: 350px;
+  display: block;
+  margin: auto;
+}
+
+main img.lado {
+  max-width: 350px;
+  display: block;
+  margin: auto;
+}
+
 /* --------------------Footer-------------------- */
 
 footer {
@@ -143,30 +163,35 @@ footer {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
-.footer-content{
+
+.footer-content {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   text-align: center;
 }
-.footer-content h3{
+
+.footer-content h3 {
   font-size: 1.8rem;
   font-weight: 400;
   text-transform: capitalize;
   line-height: 3rem;
 }
-.footer-content p{
+
+.footer-content p {
   max-width: 500px;
   margin: 10px auto;
   line-height: 28px;
   font-size: 14px;
 }
-.socials{
-  display:inline;
+
+.socials {
+  display: inline;
   margin: 1rem 0 3rem 0;
 }
-.socials a{
+
+footer a {
   font-weight: bolder;
   text-decoration: none;
   color: #fff;
@@ -175,24 +200,27 @@ footer {
   padding-left: 10px;
   padding-right: 10px;
 }
-.socials a:hover{
+
+footer a:hover {
   text-decoration: underline;
   color: var(--cor1);
 }
 
-.footer-bottom{
+.footer-bottom {
   background: var(--cor6);
   width: 100vw;
   padding: 0px 0;
   text-align: center;
   margin: 0;
 }
-.footer-bottom p{
+
+.footer-bottom p {
   font-size: 12px;
   word-spacing: 2px;
   text-transform: capitalize;
 }
-.footer-bottom span{
+
+.footer-bottom span {
   text-transform: uppercase;
   opacity: .4;
   font-weight: 200;
