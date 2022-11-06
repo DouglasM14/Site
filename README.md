@@ -7,4 +7,4 @@ Trabalho de Inglês realizado na Etec de Heliópolis sobre a criação de um sit
 - https://brasilescola.uol.com.br/geografia/energia-das-mares.htm
 
 ----Link do Site-----------
-- https://douglasm14.github.io/Site/
+- https://douglasm14.github.io/The-Right-Way/
