@@ -33,7 +33,6 @@ TxtType.prototype.tick = function() {
     this.loopNum++;
     delta = 500;
     }
-
     setTimeout(function() {
     that.tick();
     }, delta);
