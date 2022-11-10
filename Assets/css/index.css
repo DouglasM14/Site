@@ -25,6 +25,10 @@
   --font-destaque: 'Oswald', sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   margin: 0px;
   padding: 0px;
@@ -36,7 +40,11 @@
 body {
   background-color: var(--cor0);
   font-family: var(--fonte-padrao);
+  scroll-behavior: smooth;
 }
+
+
+
 
 /*  --------------------Header--------------------------------------------------------------------------------------------------------  */
 
